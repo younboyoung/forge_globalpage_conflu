@@ -1,0 +1,11 @@
+modules:
+  confluence:globalPage:
+    - key: passover-page-conflu-global-page-hello-world
+      function: main
+      title: passover-page-conflu for yby
+      route: hello-world
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/7a6ff2e9-aff8-43a0-9827-739e1cc55faa
